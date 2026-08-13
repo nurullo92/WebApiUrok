@@ -80,7 +80,6 @@ namespace HomeApi.Data.Repos
             // И если нужно - обновляем устройство
             if (!string.IsNullOrEmpty(query.NewName))
                 device.Name = query.NewName;
-
             if (!string.IsNullOrEmpty(query.NewSerial))
                 device.SerialNumber = query.NewSerial;
             
