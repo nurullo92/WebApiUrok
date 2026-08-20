@@ -1,0 +1,81 @@
+/* Базовые настройки страницы */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+/* Заголовок */
+h1 {
+    text-align: center;
+}
+
+
+/* Форма */
+.Aut {
+    width: 90%;
+    max-width: 400px;
+    min-height: 350px;
+    border: 2px solid blue;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* Таблица */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    table td {
+        font-size: 18px;
+        padding: 12px 5px;
+    }
+
+
+    table input[type="text"],
+    table input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        font-size: 16px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+
+/* Заголовок формы и кнопка */
+.submit-button,
+.Home {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+    /* Кнопка */
+    .submit-button input[type="submit"] {
+        padding: 10px 30px;
+        font-size: 18px;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+
+.welcome {
+    text-align: center;
+    margin-top: 50px;
+}

@@ -1,0 +1,28 @@
+﻿using Microsoft.SqlServer.Server;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TaskManagmentPro.Data.Models
+{
+    public class Employee
+    {
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Phone { get; set; }
+        public string Position { get; set; }
+        public string Role { get; set; }
+        public string Password { get; set; }
+        public bool IsActive { get; set; }
+        public DateTime CreateDate { get; set; }
+
+        public Guid? TaskItemId { get; set; }
+        public TaskItem? TaskItem { get; set; }
+        
+
+
+    }
+}

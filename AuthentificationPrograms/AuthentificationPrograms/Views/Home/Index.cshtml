@@ -1,0 +1,46 @@
+﻿@using AuthentificationPrograms.Models
+@model LoginRequest
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link rel="stylesheet" href="~/css/Authen2.css" />
+
+<div class="Aut">
+
+    <h2 class="Home">
+        Введите свой логин и пароль
+    </h2>
+
+    <form action="https://localhost:7066/User/Authentificate" method="post">
+
+        <table>
+
+            <tr>
+                <td>Login:</td>
+                <td>
+                    <input type="text" name="Loggin" />
+                    <span asp-validation-for="Loggin" class="text-danger"></span>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <input type="Password" name="Password" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </td>
+            </tr>
+
+        </table>
+
+        <br>
+
+        <div class="submit-button">
+            <input type="submit" value="Войти" />
+        </div>
+
+    </form>
+
+</div>

@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="TaskManagerPro.Business/TaskManagerPro.Business.csproj" Id="5703b729-95ea-40be-a432-737bf2be332f" />
+  <Project Path="TaskManagerPro.Contract/TaskManagerPro.Contract.csproj" Id="9a8a390b-7911-49e0-8408-3e159d9b8738" />
+  <Project Path="TaskManagerPro.Data/TaskManagerPro.Data.csproj" Id="cb391b88-4335-4a70-b88a-6bd541635771" />
+  <Project Path="TaskManagmentPro/TaskManagmentPro.csproj" />
+</Solution>
